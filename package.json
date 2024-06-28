@@ -1,13 +1,12 @@
 {
-  "name": "glitch-hello-eleventy",
-  "version": "0.1.0",
-  "description": "A simple blog, set up with Eleventy.",
+  "name": "lowfi-glitch-x-eleventy",
+  "version": "0.0.1",
+  "description": "lowif glitch x eleventy example",
   "scripts": {
     "start": "eleventy --serve",
     "build": "NODE_ENV=production eleventy"
   },
   "dependencies": {
-    "eleventy-plugin-seo": "0.5.2",
     "luxon": "^3.4.0"
   },
   "devDependencies": {
@@ -17,7 +16,7 @@
     "node": "14"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
+    "url": "https://github.com/manicExpressive/zoo/"
   },
   "glitch": {
     "projectType": "generated_static"

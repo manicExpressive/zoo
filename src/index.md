@@ -1,6 +1,3 @@
----
-layout: base.njk
----
 # Rowing 
 
 | Date | Time | Distance |

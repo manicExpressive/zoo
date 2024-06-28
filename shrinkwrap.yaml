@@ -1,5 +1,4 @@
 dependencies:
-  eleventy-plugin-seo: 0.5.2
   luxon: 3.2.0
 devDependencies:
   '@11ty/eleventy': 2.0.0
@@ -467,13 +466,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==
-  /eleventy-plugin-seo/0.5.2:
-    dependencies:
-      html-entities: 1.4.0
-      lodash: 4.17.21
-    dev: false
-    resolution:
-      integrity: sha512-saAWnrQrMc/dP6nimCbvAlumohfBrDI7IrpkN/OJoxvLxcOsyWrA+XMR+3lWLVAkuwC1SyA5cbunr1u8jkFK/A==
   /encodeurl/1.0.2:
     dev: true
     engines:
@@ -1489,5 +1481,4 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   '@11ty/eleventy': ^2.0.0
-  eleventy-plugin-seo: 0.5.2
   luxon: ^3.2.0
