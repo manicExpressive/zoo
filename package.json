@@ -1,13 +1,10 @@
 {
   "name": "lowfi-glitch-x-eleventy",
   "version": "0.0.1",
-  "description": "lowif glitch x eleventy example",
+  "description": "lowfi glitch x eleventy example",
   "scripts": {
     "start": "eleventy --serve",
     "build": "NODE_ENV=production eleventy"
-  },
-  "dependencies": {
-    "luxon": "^3.4.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
@@ -25,6 +22,6 @@
   "keywords": [
     "node",
     "glitch",
-    "express"
+    "eleventy"
   ]
 }
