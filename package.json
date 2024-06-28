@@ -1,19 +1,31 @@
 {
-  "name": "zoo",
-  "version": "0.0.1",
-  "description": "11ty test",
-  "main": "eleventy.config.js",
+  "name": "glitch-hello-eleventy",
+  "version": "0.1.0",
+  "description": "A simple blog, set up with Eleventy.",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
+  },
+  "dependencies": {
+    "eleventy-plugin-seo": "0.5.2",
+    "luxon": "^3.4.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "engines": {
+    "node": "14"
   },
   "repository": {
-    "type": "git",
-    "url": "{"
+    "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
   },
-  "author": "",
+  "glitch": {
+    "projectType": "generated_static"
+  },
   "license": "MIT",
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  }
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
