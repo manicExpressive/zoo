@@ -1,7 +1,9 @@
 ---
-layout: layouts/home.njk
+layout: base.njk
 ---
+# Rowing 
 
-{% for row in rowing %}
-{{ row.time_formatted }}
+| Date | Time | Distance |
+| :--- | :--- | --------------: |
+{% for row in rowing %}| {{ row.date }} | {{ row.time_formatted }} | {{ row.distance }} meters |
 {% endfor %}
